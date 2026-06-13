@@ -1,0 +1,8 @@
+flask
+torch
+torchvision
+pillow
+scikit-learn==1.2.2
+numpy
+pandas
+joblib
