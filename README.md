@@ -72,7 +72,8 @@ The app communicates with a backend API to process health data and images.
 
 | Splash & Onboarding | Home Dashboard | AI ChatBot |
 |:---:|:---:|:---:|
-| _Add screenshot_ | _Add screenshot_ | _Add screenshot_ |
+|<img width="1080" height="2400" alt="Screenshot_1779759510" src="https://github.com/user-attachments/assets/eb078409-3ee1-4967-a56a-6440a5a09e5d" />
+| _Add screenshot_ | _Add screenshot_ |
 
 ## 🤝 Contributing
 
