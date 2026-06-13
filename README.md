@@ -4,10 +4,11 @@ Brain Health Assistant is a comprehensive Flutter-based mobile application desig
 
 ## ✨ Key Features
 
-* **Stroke Risk Prediction:** Uses health data (age, hypertension, heart disease, smoking status, glucose levels, BMI) to estimate stroke probability.
-* **Alzheimer's Prediction:** AI-assisted risk assessment based on clinical health factors.
-* **MRI Detection (Beta):** Modules for detecting stroke signs and classifying brain tumors from uploaded MRI images.
-* **AI Chatbot:** An interactive companion ("Brain Assistant") to answer health-related questions and provide guidance.
+* **Stroke Risk Prediction:** Uses health data (age, hypertension, heart disease, smoking status, glucose levels, BMI) to estimate stroke probability via an XGBoost model.
+* **Stroke MRI Detection:** A CNN-based classification model analyzes brain MRI scans to detect signs of stroke.
+* **Alzheimer's Prediction:** A Random Forest model assesses Alzheimer's risk based on clinical health factors.
+* **Brain Tumor Detection:** A CNN-based classification model analyzes MRI images to detect and classify brain tumors.
+* **AI Chatbot:** An interactive companion ("Brain Assistant") that answers questions related to stroke, Alzheimer's, and brain tumors.
 * **Personalized Profiles:** Dynamic user profiles with secure authentication and data management.
 
 ## 🚀 Tech Stack
@@ -44,8 +45,8 @@ lib/
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/brain-health-assistant.git
-   cd brain-health-assistant
+   git clone https://github.com/Maryam948/brain-assistant.git
+   cd brain-assistant
    ```
 
 2. **Install dependencies:**
@@ -63,17 +64,25 @@ lib/
 
 ## 🧠 AI Models Integration
 
-The app communicates with a backend API to process health data and images.
+The app communicates with backend APIs to process health data and MRI images using the following models:
 
-* **Prediction Service:** Sends normalized health features to an ML endpoint.
-* **Chatbot Service:** Connects to a custom AI endpoint to provide intelligent responses.
+| Feature | Model Type |
+|---|---|
+| Stroke Risk Prediction | XGBoost |
+| Stroke MRI Detection | CNN (Image Classification) |
+| Alzheimer's Prediction | Random Forest |
+| Brain Tumor Detection | CNN (Image Classification) |
+| AI Chatbot | Custom AI endpoint for brain disease Q&A |
+
+* **Prediction Service:** Sends normalized health features to the appropriate ML endpoint (XGBoost / Random Forest).
+* **Detection Service:** Sends MRI images to CNN-based classification endpoints.
+* **Chatbot Service:** Connects to a custom AI endpoint to provide intelligent responses about stroke, Alzheimer's, and brain tumors.
 
 ## 📸 Screenshots
 
 | Splash & Onboarding | Home Dashboard | AI ChatBot |
 |:---:|:---:|:---:|
-|<img width="1080" height="2400" alt="Screenshot_1779759510" src="https://github.com/user-attachments/assets/eb078409-3ee1-4967-a56a-6440a5a09e5d" />
-| _Add screenshot_ | _Add screenshot_ |
+| <img width="270" alt="Screenshot 1" src="https://github.com/user-attachments/assets/eb078409-3ee1-4967-a56a-6440a5a09e5d" /> | <img width="270" alt="Screenshot 2" src="https://github.com/user-attachments/assets/1368ada1-09c6-4232-822b-4857b1d0d8f3" /> | _Add screenshot_ |
 
 ## 🤝 Contributing
 
@@ -90,5 +99,7 @@ Contributions are welcome! If you'd like to improve the models or the UI, please
 Distributed under the MIT License.
 
 ---
+
+*Disclaimer: This app is for informational purposes and should not replace professional medical advice.*
 
 *Disclaimer: This app is for informational purposes and should not replace professional medical advice.*
