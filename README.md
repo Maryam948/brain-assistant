@@ -82,8 +82,8 @@ The app communicates with backend APIs to process health data and MRI images usi
 
 | Splash & Onboarding | Home Dashboard | AI ChatBot |
 |:---:|:---:|:---:|
-| <img width="270" alt="Screenshot 1" src="https://github.com/user-attachments/assets/eb078409-3ee1-4967-a56a-6440a5a09e5d" /> | <img width="270" alt="Screenshot 2" src="https://github.com/user-attachments/assets/1368ada1-09c6-4232-822b-4857b1d0d8f3" /> <img width="1080" height="2400" alt="Screenshot_1781373335" src="https://github.com/user-attachments/assets/2d952701-4167-4945-b546-53a2b33a1f87" />
- | _Add screenshot_ |
+| <img width="270" alt="Screenshot 1" src="https://github.com/user-attachments/assets/eb078409-3ee1-4967-a56a-6440a5a09e5d" />  <img width="270" alt="Screenshot 2" src="https://github.com/user-attachments/assets/1368ada1-09c6-4232-822b-4857b1d0d8f3" />| <img width="1080" height="2400" alt="Screenshot_1781373335" src="https://github.com/user-attachments/assets/2d952701-4167-4945-b546-53a2b33a1f87" />|<img width="1080" height="2400" alt="Screenshot_1779761865" src="https://github.com/user-attachments/assets/ac22947b-db1c-4e7d-b2cd-41b457aa3747" />|
+
 
 ## 🤝 Contributing
 
